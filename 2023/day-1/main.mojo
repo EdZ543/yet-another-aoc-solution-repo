@@ -3,7 +3,7 @@ fn part1() raises -> Int:
     var d2 = String()
     var total = 0
 
-    with open("2023/inputs/day1.txt", "r") as f:
+    with open("2023/day-1/input.txt", "r") as f:
         let input = f.read()
 
         for i in range(len(input)):
@@ -49,7 +49,7 @@ fn part2() raises -> Int:
     var d2 = String()
     var total = 0
 
-    with open("2023/inputs/day1.txt", "r") as f:
+    with open("2023/day-1/input.txt", "r") as f:
         let input = f.read()
 
         for i in range(len(input)):
